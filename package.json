@@ -1,0 +1,29 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "watch-css": "tailwindcss build -i public/css/input.css -o public/css/output.css --watch",
+    "build-css": "tailwindcss build -i public/css/input.css -o public/css/output.css "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "flowbite": "^2.5.2",
+    "mongoose": "^8.9.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "daisyui": "^4.12.23",
+    "tailwindcss": "^3.4.17"
+  }
+}
